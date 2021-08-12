@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "build",
+    "rootDir": "src",
+    "target": "ES2019",
+    "lib": [
+      "dom",
+      "ES2019"
+    ]
+  },
+  "references": [
+    {
+      "path": "../diceroll"
+    }
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist"
+  ]
+}

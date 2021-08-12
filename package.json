@@ -1,0 +1,18 @@
+{
+  "name": "lerna-tutorial",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "lerna run build --stream",
+    "clean": "lerna run clean --parallel"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "typescript": "^4.3.5"
+  }
+}

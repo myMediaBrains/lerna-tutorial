@@ -1,0 +1,21 @@
+{
+  "name": "@monorepo/ui",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve",
+    "build": "yarn compile && webpack --env production",
+    "clean": "rm -rf ./dist && rm -rf ./build && rm tsconfig.tsbuildinfo",
+    "watch": "tsc -b -w --preserveWatchOutput",
+    "compile": "tsc -b"
+  },
+  "dependencies": {
+    "@monorepo/diceroll": "^1.0.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

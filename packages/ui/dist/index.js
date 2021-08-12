@@ -1,0 +1,2 @@
+(()=>{"use strict";var r={429:(r,e)=>{Object.defineProperty(e,"__esModule",{value:!0}),e.roll=void 0,e.roll=function(r){return`I rolled a dice: ${r}. Outcome grim`}}},e={};function o(t){var l=e[t];if(void 0!==l)return l.exports;var n=e[t]={exports:{}};return r[t](n,n.exports,o),n.exports}(()=>{const r=o(429);console.log(r.roll("1d20"))})()})();
+//# sourceMappingURL=index.js.map

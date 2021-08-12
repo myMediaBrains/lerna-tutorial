@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/Cellar/node/16.6.1/bin/node /usr/local/Cellar/yarn/1.22.11/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/bin:/Users/catchhub/.pyenv/plugins/pyenv-virtualenv/shims:/Users/catchhub/.pyenv/shims:/Users/catchhub/.pyenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/catchhub/.pyenv/plugins/pyenv-virtualenv/shims:/Users/catchhub/.pyenv/shims:/Users/catchhub/.pyenv/bin:yarn run v1.22.10 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/usr/local/Cellar/mongodb-community@4.2/4.2.9/bin:/Users/catchhub/Library/Android/sdk/emulator:/Users/catchhub/Library/Android/sdk/tools:/Users/catchhub/Library/Android/sdk/tools/bin:/Users/catchhub/Library/Android/sdk/platform-tools:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/usr/local/Cellar/mongodb-community@4.2/4.2.9/bin:/Users/catchhub/Library/Android/sdk/emulator:/Users/catchhub/Library/Android/sdk/tools:/Users/catchhub/Library/Android/sdk/tools/bin:/Users/catchhub/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.6.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@monorepo%2fdiceroll: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:66992:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:140763:22)
+      at Request.emit (node:events:394:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:141735:10)
+      at Request.emit (node:events:394:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:141657:12)
+      at Object.onceWrapper (node:events:513:28)
+      at IncomingMessage.emit (node:events:406:35)
+      at endReadableNT (node:internal/streams/readable:1331:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "@monorepo/ui",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "build": "tsc -b",
+      "clean": "rm -rf ./dist && rm tsconfig.tsbuildinfo"
+    },
+    "dependencies": {
+      "@monorepo/diceroll": "^1.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
